@@ -7,7 +7,7 @@ public class Globe {
 	int diameter=200;
 	boolean over = false;
 	PApplet parent;
-	PImage imgEarth;
+	PImage imgEarth; 
 	PShape globeEarth;
 	
     // constructor

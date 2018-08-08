@@ -1,6 +1,7 @@
 // Menu for selection use button class
 // it can be display horizontal or vertical 
 import processing.core.*;
+import processing.data.*;
 
 class Menu {
   float posx, posy;
@@ -51,7 +52,7 @@ class Menu {
   } // build
   
   // Function used to identified the selected button
-  void selectedButton(PApplet p, int[] btncolors) {
+  int selectedButton(PApplet p, int[] btncolors) {
 	  this.parent = p;
     String optionSelected="";
     
@@ -71,13 +72,14 @@ class Menu {
     parent.fill(255);
     // 	Year selection to display 2017
     switch(optionSelected) {
-          case ("2017"):   
-            keeper = 1;
+          case ("2017"): 
+        	keeper = 1;
             break;
           case ("2016"):
-            keeper = 2;
+        	keeper = 2;
             break;
           case ("2015"):
+        	//world.VizData(this.parent, table2015, diameter);  // Use to add the visualization for the scores
             keeper = 3;
             break;
         //  case ("TIME"):
@@ -87,25 +89,23 @@ class Menu {
             keeper = 1;
             parent.fill(0);
     }    
+    return keeper;
   } // selectedButton
   
   // Keep the selection of the button
-  void keepButton(PApplet p, int[] btncolors){   
+  int keepButton(PApplet p, int[] btncolors){   
 	  this.parent = p;
     // keep selected button 
     controls[keeper-1].backcol = btncolors[3];
     controls[keeper-1].display(this.parent);
     switch(keeper) {
           case (1):  // Player Ages graph and table
-            
             keeper = 1;
             break;
-          case (2):  // Goal Time graph
-     
+          case (2):  // Goal Time graph     
             keeper = 2;
             break;
           case (3):  // Market value graph
-     
             keeper = 3;
             break;
           case (4):
@@ -113,7 +113,7 @@ class Menu {
             break;  
           default:
             keeper = 1;
-            parent.fill(0);
-    }        
+    }   
+    return keeper;
   }
 }

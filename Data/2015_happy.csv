@@ -1,0 +1,159 @@
+Country,Region,Rank,Score,Latitude,Longitud
+Afghanistan,Southern Asia,153,3.575,33.9391,67.7099
+Albania,Central and Eastern Europe,95,4.959,41.1533,20.1683
+Algeria,Middle East and Northern Africa,68,5.605,28.0338,1.6596
+Angola,Sub-Saharan Africa,137,4.033,-11.2026,17.8738
+Argentina,Latin America and Caribbean,30,6.574,-38.416,-63.6166
+Armenia,Central and Eastern Europe,127,4.35,40.069,45.0381
+Australia,Australia and New Zealand,10,7.284,-25.2743,133.7751
+Austria,Western Europe,13,7.2,47.5162,14.55
+Azerbaijan,Central and Eastern Europe,80,5.212,40.1431,47.5769
+Bahrain,Middle East and Northern Africa,49,5.96,26.0667,50.5577
+Bangladesh,Southern Asia,109,4.694,23.6849,90.3563
+Belarus,Central and Eastern Europe,59,5.813,53.7098,27.9533
+Belgium,Western Europe,19,6.937,50.5038,4.4699
+Benin,Sub-Saharan Africa,155,3.34,9.3076,2.3158
+Bhutan,Southern Asia,79,5.253,27.5141,90.4336
+Bolivia,Latin America and Caribbean,51,5.89,-16.2901,-63.5886
+Bosnia and Herzegovina,Central and Eastern Europe,96,4.949,43.9158,17.679
+Botswana,Sub-Saharan Africa,128,4.332,-22.3284,24.6848
+Brazil,Latin America and Caribbean,16,6.983,-14.235,-51.9252
+Bulgaria,Central and Eastern Europe,134,4.218,42.7338,25.4858
+Burkina Faso,Sub-Saharan Africa,152,3.587,12.2383,-1.5615
+Burundi,Sub-Saharan Africa,157,2.905,-3.373,29.9188
+Cambodia,Southeastern Asia,145,3.819,12.5656,104.9909
+Cameroon,Sub-Saharan Africa,133,4.252,7.3697,12.3547
+Canada,North America,5,7.427,56.1303,-106.346
+Central African Republic,Sub-Saharan Africa,148,3.678,6.6111,20.9394
+Chad,Sub-Saharan Africa,149,3.667,15.3611,18.6644
+Chile,Latin America and Caribbean,27,6.67,-35.6751,-71.5429
+China,Eastern Asia,84,5.14,35.8616,104.1953
+Colombia,Latin America and Caribbean,33,6.477,4.5708,-74.2973
+Comoros,Sub-Saharan Africa,140,3.956,-12.2125,44.3718
+Congo (Brazzaville),Sub-Saharan Africa,139,3.989,-0.228,15.8276
+Congo (Kinshasa),Sub-Saharan Africa,120,4.517,-4.0383,21.7586
+Costa Rica,Latin America and Caribbean,12,7.226,9.7489,-83.7534
+Croatia,Central and Eastern Europe,62,5.759,45.1,15.2
+Cyprus,Western Europe,67,5.689,34.7713,33.0864
+Czech Republic,Central and Eastern Europe,31,6.505,49.8174,15.4729
+Denmark,Western Europe,3,7.527,56.2639,9.5017
+Djibouti,Sub-Saharan Africa,126,4.369,11.8251,42.5902
+Dominican Republic,Latin America and Caribbean,98,4.885,18.7356,-70.1626
+Ecuador,Latin America and Caribbean,48,5.975,-1.8312,-78.183
+Egypt,Middle East and Northern Africa,135,4.194,26.8205,30.8024
+El Salvador,Latin America and Caribbean,42,6.13,13.7941,-88.8965
+Estonia,Central and Eastern Europe,73,5.429,58.5952,25.0136
+Ethiopia,Sub-Saharan Africa,122,4.512,9.145,40.4896
+Finland,Western Europe,6,7.406,61.9241,25.7481
+France,Western Europe,29,6.575,46.2276,2.2137
+Gabon,Sub-Saharan Africa,143,3.896,-0.8036,11.6094
+Georgia,Central and Eastern Europe,130,4.297,32.1656,-82.9007
+Germany,Western Europe,26,6.75,51.1656,10.4515
+Ghana,Sub-Saharan Africa,114,4.633,7.9465,-1.0231
+Greece,Western Europe,102,4.857,39.0742,21.8243
+Guatemala,Latin America and Caribbean,43,6.123,15.7834,-90.2307
+Guinea,Sub-Saharan Africa,150,3.656,9.9455,-9.6966
+Haiti,Latin America and Caribbean,119,4.518,18.971187,-72.2852
+Honduras,Latin America and Caribbean,105,4.788,15.1999,-86.2419
+Hong Kong,Eastern Asia,72,5.474,22.3964,114.1094
+Hungary,Central and Eastern Europe,104,4.8,47.1624,19.5033
+Iceland,Western Europe,2,7.561,64.963,-19.0208
+India,Southern Asia,117,4.565,20.5936,78.9628
+Indonesia,Southeastern Asia,74,5.399,-0.7892,113.9513
+Iran,Middle East and Northern Africa,110,4.686,32.4279,53.688
+Iraq,Middle East and Northern Africa,112,4.677,33.2231,43.6729
+Ireland,Western Europe,18,6.94,53.1423,-7.692
+Israel,Middle East and Northern Africa,11,7.278,31.046,34.8516
+Italy,Western Europe,50,5.948,41.8719,12.5673
+Ivory Coast,Sub-Saharan Africa,151,3.655,7.5399,-5.547
+Jamaica,Latin America and Caribbean,65,5.709,18.1095,-77.2975
+Japan,Eastern Asia,46,5.987,36.2048,138.2529
+Jordan,Middle East and Northern Africa,82,5.192,31.0101,36.43
+Kazakhstan,Central and Eastern Europe,54,5.855,48.0195,66.9236
+Kenya,Sub-Saharan Africa,125,4.419,-0.0235,37.9061
+Kosovo,Central and Eastern Europe,69,5.589,42.6026,20.9029
+Kuwait,Middle East and Northern Africa,39,6.295,29.3116,47.4817
+Kyrgyzstan,Central and Eastern Europe,77,5.286,41.2043,74.766
+Laos,Southeastern Asia,99,4.876,36.1075,120.4688
+Latvia,Central and Eastern Europe,89,5.098,56.8796,24.6031
+Lebanon,Middle East and Northern Africa,103,4.839,33.8547,35.8622
+Lesotho,Sub-Saharan Africa,97,4.898,-29.6099,28.2336
+Liberia,Sub-Saharan Africa,116,4.571,6.428,-9.4294
+Libya,Middle East and Northern Africa,63,5.754,26.3351,17.2283
+Lithuania,Central and Eastern Europe,56,5.833,55.1694,23.8812
+Luxembourg,Western Europe,17,6.946,49.8152,6.1295
+Macedonia,Central and Eastern Europe,93,5.007,41.6086,21.7452
+Madagascar,Sub-Saharan Africa,147,3.681,-18.7669,46.8691
+Malawi,Sub-Saharan Africa,131,4.292,-13.2543,34.3015
+Malaysia,Southeastern Asia,61,5.77,4.2104,101.9757
+Mali,Sub-Saharan Africa,138,3.995,17.5706,-3.9961
+Malta,Western Europe,37,6.302,35.9374,14.3754
+Mauritania,Sub-Saharan Africa,124,4.436,21.0078,-10.9408
+Mauritius,Sub-Saharan Africa,71,5.477,-20.3484,57.5521
+Mexico,Latin America and Caribbean,14,7.187,23.6345,-102.5527
+Moldova,Central and Eastern Europe,52,5.889,47.4116,28.3698
+Mongolia,Eastern Asia,100,4.874,46.8624,103.8466
+Montenegro,Central and Eastern Europe,82,5.192,42.7086,19.3743
+Morocco,Middle East and Northern Africa,92,5.013,31.7917,-7.0926
+Mozambique,Sub-Saharan Africa,94,4.971,-18.6656,35.5295
+Myanmar,Southeastern Asia,129,4.307,21.9162,95.9559
+Nepal,Southern Asia,121,4.514,28.3948,84.124
+Netherlands,Western Europe,7,7.378,52.1326,5.2912
+New Zealand,Australia and New Zealand,9,7.286,-41.7523,173.438
+Nicaragua,Latin America and Caribbean,57,5.828,12.8654,-85.2072
+Niger,Sub-Saharan Africa,144,3.845,17.6077,8.0816
+Nigeria,Sub-Saharan Africa,78,5.268,9.0819,8.6752
+North Cyprus,Western Europe,66,5.695,35.248,33.6577
+Norway,Western Europe,4,7.522,59.9138,10.7522
+Oman,Middle East and Northern Africa,22,6.853,21.4735,55.9754
+Pakistan,Southern Asia,81,5.194,30.3753,69.3451
+Palestinian Territories,Middle East and Northern Africa,108,4.715,31.9521,35.2331
+Panama,Latin America and Caribbean,25,6.786,8.5379,-80.7821
+Paraguay,Latin America and Caribbean,53,5.878,-23.4425,-58.4438
+Peru,Latin America and Caribbean,58,5.824,-9.1899,-75.0151
+Philippines,Southeastern Asia,90,5.073,14.5995,120.984
+Poland,Central and Eastern Europe,60,5.791,51.9194,19.1451
+Portugal,Western Europe,88,5.102,39.3998,-8.2244
+Qatar,Middle East and Northern Africa,28,6.611,25.3648,51.1838
+Romania,Central and Eastern Europe,86,5.124,45.9431,24.9667
+Russia,Central and Eastern Europe,64,5.716,61.524,105.3187
+Rwanda,Sub-Saharan Africa,154,3.465,-1.9402,29.8738
+Saudi Arabia,Middle East and Northern Africa,35,6.411,23.8859,45.0791
+Senegal,Sub-Saharan Africa,142,3.904,14.4974,-14.4523
+Serbia,Central and Eastern Europe,87,5.123,44.0165,21.0058
+Sierra Leone,Sub-Saharan Africa,123,4.507,8.4605,-11.7798
+Singapore,Southeastern Asia,24,6.798,1.352,103.8198
+Slovakia,Central and Eastern Europe,45,5.995,48.669,19.699
+Slovenia,Central and Eastern Europe,55,5.848,46.1512,14.9954
+Somaliland region,Sub-Saharan Africa,91,5.057,5.7863,47.3258
+South Africa,Sub-Saharan Africa,113,4.642,-30.5594,22.9375
+South Korea,Eastern Asia,47,5.984,35.9077,127.7669
+Spain,Western Europe,36,6.329,40.4636,-3.7492
+Sri Lanka,Southern Asia,132,4.271,7.873,80.7717
+Sudan,Sub-Saharan Africa,118,4.55,12.8628,30.2176
+Suriname,Latin America and Caribbean,40,6.269,3.1993,-56.0277
+Swaziland,Sub-Saharan Africa,101,4.867,-26.5225,31.4658
+Sweden,Western Europe,8,7.364,60.1281,18.6435
+Switzerland,Western Europe,1,7.587,46.8181,8.2275
+Syria,Middle East and Northern Africa,156,3.006,34.802,38.9968
+Taiwan,Eastern Asia,38,6.298,23.6978,120.9605
+Tajikistan,Central and Eastern Europe,106,4.786,38.861,71.276
+Tanzania,Sub-Saharan Africa,146,3.781,-6.369,34.8888
+Thailand,Southeastern Asia,34,6.455,15.87,100.9925
+Togo,Sub-Saharan Africa,158,2.839,8.6195,0.8247
+Trinidad and Tobago,Latin America and Caribbean,41,6.168,10.6918,-61.2225
+Tunisia,Middle East and Northern Africa,107,4.739,33.8869,9.5374
+Turkey,Middle East and Northern Africa,76,5.332,38.9637,35.2433
+Turkmenistan,Central and Eastern Europe,70,5.548,38.9697,59.5562
+Uganda,Sub-Saharan Africa,141,3.931,1.3733,32.2902
+Ukraine,Central and Eastern Europe,111,4.681,48.3794,31.1655
+United Arab Emirates,Middle East and Northern Africa,20,6.901,23.424,53.8478
+United Kingdom,Western Europe,21,6.867,55.378,-9.4359
+United States,North America,15,7.119,37.0902,-95.7128
+Uruguay,Latin America and Caribbean,32,6.485,-32.5227,-55.7658
+Uzbekistan,Central and Eastern Europe,44,6.003,41.3774,64.5852
+Venezuela,Latin America and Caribbean,23,6.81,6.4237,-66.5897
+Vietnam,Southeastern Asia,75,5.36,14.0583,108.2771
+Yemen,Middle East and Northern Africa,136,4.077,15.5527,48.5163
+Zambia,Sub-Saharan Africa,85,5.129,-13.1338,27.8493
+Zimbabwe,Sub-Saharan Africa,115,4.61,-19.0154,29.1548
