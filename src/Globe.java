@@ -1,4 +1,4 @@
-// Earth/globe class and methods 
+// Earth-globe class and methods 
 import processing.core.*;
 import processing.data.*;
 
@@ -30,19 +30,16 @@ public class Globe {
 	}
 	
 	// Draw Globe
-	public void draw(PApplet p) {
-	
+	public void draw(PApplet p) {	
 		this.parent = p;				    		   
 	    parent.lights();
 	    parent.fill(250);
 	    parent.noStroke();
-	    parent.shape(globeEarth);		    
-		    	
-	}
+	    parent.shape(globeEarth);		    		    	
+	} // draw
 	
-	// Vizualization of the data in the defined table
-	// In this case happy scores for the countries
-	public void VizData(PApplet p, Table dataTable, int r) {
+	// Visualization of the data in the defined table - happy scores for the countries
+	public void VizData(PApplet p, Table dataTable) {
 		float lat, lon, score;
 		this.parent = p;
 
@@ -53,14 +50,16 @@ public class Globe {
      	    
      	    float theta = parent.radians(lat) + parent.PI/2;
      	    float phi = parent.radians(-lon) + parent.PI;
-     	    float x = r*parent.sin(theta)*parent.cos(phi);
-     	    float z = r*parent.sin(theta)*parent.sin(phi);
-     	    float y = r*parent.cos(theta);
+     	    float x = this.diameter*parent.sin(theta)*parent.cos(phi);
+     	    float z = this.diameter*parent.sin(theta)*parent.sin(phi);
+     	    float y = this.diameter*parent.cos(theta);
      	    int bcolor;
      	    
-     	    PVector pos = new PVector(x,y,z);  
+     	    PVector pos = new PVector(x,y,z);
+     	    // the following calculations are done for better visualization in percentages 
      	    float h= parent.pow(10, score);
      	    float maxh = parent.pow(10,8);
+     	    // mapping for min and max values 
      	    h = parent.map(h, 0, maxh, 1, 100);
      	    
      	    PVector xaxis = new PVector(1,0,0);
@@ -70,7 +69,7 @@ public class Globe {
      	    parent.pushMatrix();
      	    	parent.translate(x,y,z);
      	    	parent.rotate(angleb,raxis.x, raxis.y, raxis.z);
-     	      
+                // depends of the score value a color for the box is determined    	      
      	    	if (score > 7.0)
      	    		parent.fill(164,229,180);  // ligth green
      	    	else if (score > 6 && score <7)  
@@ -85,4 +84,4 @@ public class Globe {
      	    parent.popMatrix();
      	  }  // for    	
 	}// VizData
-}
+} // class

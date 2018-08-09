@@ -1,5 +1,4 @@
-// Menu for selection use button class
-// it can be display horizontal or vertical 
+// Legend Box colors and captions/labels are provided in arrays 
 import processing.core.*;
 
 public class Legend {
@@ -28,9 +27,9 @@ public class Legend {
 		this.parent = p;
 	}
 
-	void draw(PApplet p, int posx, int posy, String title) {
+	// draw in the defined position (posx, posy)
+	void draw(int posx, int posy, String title) {
 		int j=20;
-		this.parent = p;
 		
 		parent.fill(backcolor);
 		parent.pushMatrix();
@@ -42,9 +41,9 @@ public class Legend {
 				parent.fill(parent.color(graphcolors[i]));
 				parent.rect(15,16+j,10,12);
 				parent.fill(0);
-				parent.text(captions[i], 30, 22+j);
+				parent.text(captions[i], 30, 20+j);
 				j+=25;
 			}			
 		parent.popMatrix();		
-	}
-}
+	} // draw
+} //class

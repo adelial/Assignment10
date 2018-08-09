@@ -31,64 +31,45 @@ class Menu {
   }
   
   // build function - display the menu in the defined x,y position and orientation (horizontal = true)
-  void build(float posx, float posy, boolean horizontal, PApplet p){
+  void build(float posx, float posy, boolean horizontal){
     PVector ctrpos;
     this.posx = posx;
     this.posy = posy;
-    this.parent = p;
+    
     
     for (int i=0; i<ctrlabels.length; i++) {
       ctrpos = new PVector(posx, posy);  
     
       controls[i] = new Button(this.ctrlabels[i],ctrpos, this.ctrh, this.ctrw, this.ctrcolors, this.parent);
-      controls[i].display(this.parent);
+      controls[i].display();
       if (horizontal) {
         posx = posx+ctrw;
       }    
       else {
-        posy = posy+ctrh;
+        posy = posy+ctrh+2;
       }
     }
   } // build
   
   // Function used to identified the selected button
-  int selectedButton(PApplet p, int[] btncolors) {
-	  this.parent = p;
-    String optionSelected="";
+  int selectedButton(PApplet p, int btncolors[]) {
+	this.parent = p;
+  //  int optionSelected=0;
     
     for (int i=0; i<controls.length; i++) {
       if (controls[i].isSelected(this.parent) && parent.mousePressed) {
         controls[i].backcol = btncolors[3];
         controls[i].selected = true;
-        controls[i].display(this.parent);
-        optionSelected = controls[i].label;
+        controls[i].display();
+        keeper = i+1;
       }
       else {
         controls[i].backcol = btncolors[0];
         controls[i].selected = false;
-        controls[i].display(this.parent);
+        controls[i].display();
       }
     }
-    parent.fill(255);
-    // 	Year selection to display 2017
-    switch(optionSelected) {
-          case ("2017"): 
-        	keeper = 1;
-            break;
-          case ("2016"):
-        	keeper = 2;
-            break;
-          case ("2015"):
-        	//world.VizData(this.parent, table2015, diameter);  // Use to add the visualization for the scores
-            keeper = 3;
-            break;
-        //  case ("TIME"):
-        //    keeper = 4;
-         //   break;  
-          default:
-            keeper = 1;
-            parent.fill(0);
-    }    
+    //parent.fill(255);   
     return keeper;
   } // selectedButton
   
@@ -97,23 +78,8 @@ class Menu {
 	  this.parent = p;
     // keep selected button 
     controls[keeper-1].backcol = btncolors[3];
-    controls[keeper-1].display(this.parent);
-    switch(keeper) {
-          case (1):  // Player Ages graph and table
-            keeper = 1;
-            break;
-          case (2):  // Goal Time graph     
-            keeper = 2;
-            break;
-          case (3):  // Market value graph
-            keeper = 3;
-            break;
-          case (4):
-            keeper = 4;
-            break;  
-          default:
-            keeper = 1;
-    }   
+    controls[keeper-1].display();
+  
     return keeper;
-  }
-}
+  } // keepButton
+}  // class
