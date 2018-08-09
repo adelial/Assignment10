@@ -74,7 +74,13 @@ public class UsingProcessing extends PApplet {
     	int selYear=0;
     	int selArea=0;
     	background(51);
+    	String title="";
     	
+    	textSize(35);
+    	fill(255);
+    	title = "Measurement of Happiness in the World";
+    	text (title, width/2, 30f, 10f);
+    	textSize(15);
     	yearMenu.build(1000, 180, true);
     	optionMenu.build(1000, 250, false);
     	boxLabels.draw(1000,500, "Happiness Score");  // Legend box 
