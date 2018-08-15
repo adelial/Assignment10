@@ -32,8 +32,8 @@ public class Globe {
 	// Draw Globe
 	public void draw(PApplet p) {	
 		this.parent = p;	
-		parent.directionalLight(0, 0, 0, 0, 0, 100);
-	    parent.lights();
+		//parent.directionalLight(0, 0, 0, 0, 0, 100);
+	    //parent.lights();
 	    parent.fill(250);
 	    parent.noStroke();
 	    parent.shape(globeEarth);		    		    	

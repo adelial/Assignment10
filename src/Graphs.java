@@ -98,12 +98,12 @@ public class Graphs {
 		if (direction == 0) {
 			parent.text("Top 5 Happiest", this.parent.width/1.35f, this.parent.height/2.2f);
 			barChart.setBarColour(this.parent.color(7, 170,90));
-			barChart.draw(this.parent.width/1.7f, this.parent.height/2.15f, this.parent.width/2.9f, this.parent.height/4.1f);
+			barChart.draw(this.parent.width/1.7f, this.parent.height/2.15f, this.parent.width/2.7f, this.parent.height/4.1f);
 		}
 		else {
 			parent.text("Bottom 5 Happiest", this.parent.width/1.35f, this.parent.height/1.37f);
 			barChart.setBarColour(this.parent.color(142,84,7));
-			barChart.draw(this.parent.width/1.7f, this.parent.height/1.35f, this.parent.width/2.9f, this.parent.height/4.1f);			
+			barChart.draw(this.parent.width/1.7f, this.parent.height/1.36f, this.parent.width/2.7f, this.parent.height/4.1f);			
 		}		
 	} //end drawTop	
 }//end Graphs Class

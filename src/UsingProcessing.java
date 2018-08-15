@@ -52,7 +52,7 @@ public class UsingProcessing extends PApplet {
 	} // settings
 
     public void setup(){
-   	    	
+   	    
     	btncolors[0] = color(92,183,178);  
     	btncolors[1] = color(0);  
     	btncolors[2] = color(53,50,137);  
@@ -71,10 +71,11 @@ public class UsingProcessing extends PApplet {
     	data2017=loadTable(localPath+"2017_happy2.csv","header");
     	data2016=loadTable(localPath+"2016_happy2.csv","header");
     	data2015=loadTable(localPath+"2015_happy2.csv","header");
-    	  	    	    
+     	  	    	    
     } //setup
 
     public void draw(){
+    	
     	int selYear=0;
     	int selArea=0;
     	background(20);
@@ -89,6 +90,7 @@ public class UsingProcessing extends PApplet {
     	yearMenu.build(1000, 180, true);
     	optionMenu.build(1000, 250, false);
     	boxLabels.draw(1200,250, "Happiness Score");  // Legend box 
+    	
     	if (mouseX > 800 && mouseX <1500 && mouseY > 180 && mouseY<240 && mousePressed && mouseButton == LEFT){
     	    selYear = yearMenu.selectedButton(this, btncolors); 
     	  }
@@ -101,7 +103,10 @@ public class UsingProcessing extends PApplet {
     	else {
     	    selArea= optionMenu.keepButton(this,btncolors);
     	}
+    	
     	lightSpecular(0, 0, 0);
+		directionalLight(0, 0, 0, 0, 750, -10);
+	    lights();
     	//directionalLight(255, 255, 255, 0, 0, 100);
     	fill(250);
     	noStroke();
