@@ -1,0 +1,159 @@
+Country,Region,Rank,Score,Latitude,Longitud,DispRegion,DispRegion2
+Afghanistan,Southern Asia,153,3.575,33.9391,67.7099,Asia,3
+Albania,Central and Eastern Europe,95,4.959,41.1533,20.1683,Europe,4
+Algeria,Middle East and Northern Africa,68,5.605,28.0338,1.6596,Africa,1
+Angola,Sub-Saharan Africa,137,4.033,-11.2026,17.8738,Africa,1
+Argentina,Latin America and Americas,30,6.574,-38.416,-63.6166,Americas,2
+Armenia,Central and Eastern Europe,127,4.35,40.069,45.0381,Europe,4
+Australia,Australia and New Zealand,10,7.284,-25.2743,133.7751,Asia,3
+Austria,Western Europe,13,7.2,47.5162,14.55,Europe,4
+Azerbaijan,Central and Eastern Europe,80,5.212,40.1431,47.5769,Europe,4
+Bahrain,Middle East and Northern Africa,49,5.96,26.0667,50.5577,Africa,1
+Bangladesh,Southern Asia,109,4.694,23.6849,90.3563,Asia,3
+Belarus,Central and Eastern Europe,59,5.813,53.7098,27.9533,Europe,4
+Belgium,Western Europe,19,6.937,50.5038,4.4699,Europe,4
+Benin,Sub-Saharan Africa,155,3.34,9.3076,2.3158,Africa,1
+Bhutan,Southern Asia,79,5.253,27.5141,90.4336,Asia,3
+Bolivia,Latin America and Americas,51,5.89,-16.2901,-63.5886,Americas,2
+Bosnia and Herzegovina,Central and Eastern Europe,96,4.949,43.9158,17.679,Europe,4
+Botswana,Sub-Saharan Africa,128,4.332,-22.3284,24.6848,Africa,1
+Brazil,Latin America and Americas,16,6.983,-14.235,-51.9252,Americas,2
+Bulgaria,Central and Eastern Europe,134,4.218,42.7338,25.4858,Europe,4
+Burkina Faso,Sub-Saharan Africa,152,3.587,12.2383,-1.5615,Africa,1
+Burundi,Sub-Saharan Africa,157,2.905,-3.373,29.9188,Africa,1
+Cambodia,Southeastern Asia,145,3.819,12.5656,104.9909,Asia,3
+Cameroon,Sub-Saharan Africa,133,4.252,7.3697,12.3547,Africa,1
+Canada,North America,5,7.427,56.1303,-106.346,Americas,2
+Central African Republic,Sub-Saharan Africa,148,3.678,6.6111,20.9394,Africa,1
+Chad,Sub-Saharan Africa,149,3.667,15.3611,18.6644,Africa,1
+Chile,Latin America and Americas,27,6.67,-35.6751,-71.5429,Americas,2
+China,Eastern Asia,84,5.14,35.8616,104.1953,Asia,3
+Colombia,Latin America and Americas,33,6.477,4.5708,-74.2973,Americas,2
+Comoros,Sub-Saharan Africa,140,3.956,-12.2125,44.3718,Africa,1
+Congo (Brazzaville),Sub-Saharan Africa,139,3.989,-0.228,15.8276,Africa,1
+Congo (Kinshasa),Sub-Saharan Africa,120,4.517,-4.0383,21.7586,Africa,1
+Costa Rica,Latin America and Americas,12,7.226,9.7489,-83.7534,Americas,2
+Croatia,Central and Eastern Europe,62,5.759,45.1,15.2,Europe,4
+Cyprus,Western Europe,67,5.689,34.7713,33.0864,Europe,4
+Czech Republic,Central and Eastern Europe,31,6.505,49.8174,15.4729,Europe,4
+Denmark,Western Europe,3,7.527,56.2639,9.5017,Europe,4
+Djibouti,Sub-Saharan Africa,126,4.369,11.8251,42.5902,Africa,1
+Dominican Republic,Latin America and Americas,98,4.885,18.7356,-70.1626,Americas,2
+Ecuador,Latin America and Americas,48,5.975,-1.8312,-78.183,Americas,2
+Egypt,Middle East and Northern Africa,135,4.194,26.8205,30.8024,Africa,1
+El Salvador,Latin America and Americas,42,6.13,13.7941,-88.8965,Americas,2
+Estonia,Central and Eastern Europe,73,5.429,58.5952,25.0136,Europe,4
+Ethiopia,Sub-Saharan Africa,122,4.512,9.145,40.4896,Africa,1
+Finland,Western Europe,6,7.406,61.9241,25.7481,Europe,4
+France,Western Europe,29,6.575,46.2276,2.2137,Europe,4
+Gabon,Sub-Saharan Africa,143,3.896,-0.8036,11.6094,Africa,1
+Georgia,Central and Eastern Europe,130,4.297,32.1656,-82.9007,Europe,4
+Germany,Western Europe,26,6.75,51.1656,10.4515,Europe,4
+Ghana,Sub-Saharan Africa,114,4.633,7.9465,-1.0231,Africa,1
+Greece,Western Europe,102,4.857,39.0742,21.8243,Europe,4
+Guatemala,Latin America and Americas,43,6.123,15.7834,-90.2307,Americas,2
+Guinea,Sub-Saharan Africa,150,3.656,9.9455,-9.6966,Africa,1
+Haiti,Latin America and Americas,119,4.518,18.971187,-72.2852,Americas,2
+Honduras,Latin America and Americas,105,4.788,15.1999,-86.2419,Americas,2
+Hong Kong,Eastern Asia,72,5.474,22.3964,114.1094,Asia,3
+Hungary,Central and Eastern Europe,104,4.8,47.1624,19.5033,Europe,4
+Iceland,Western Europe,2,7.561,64.963,-19.0208,Europe,4
+India,Southern Asia,117,4.565,20.5936,78.9628,Asia,3
+Indonesia,Southeastern Asia,74,5.399,-0.7892,113.9513,Asia,3
+Iran,Middle East and Northern Africa,110,4.686,32.4279,53.688,Africa,1
+Iraq,Middle East and Northern Africa,112,4.677,33.2231,43.6729,Africa,1
+Ireland,Western Europe,18,6.94,53.1423,-7.692,Europe,4
+Israel,Middle East and Northern Africa,11,7.278,31.046,34.8516,Africa,1
+Italy,Western Europe,50,5.948,41.8719,12.5673,Europe,4
+Ivory Coast,Sub-Saharan Africa,151,3.655,7.5399,-5.547,Africa,1
+Jamaica,Latin America and Americas,65,5.709,18.1095,-77.2975,Americas,2
+Japan,Eastern Asia,46,5.987,36.2048,138.2529,Asia,3
+Jordan,Middle East and Northern Africa,82,5.192,31.0101,36.43,Africa,1
+Kazakhstan,Central and Eastern Europe,54,5.855,48.0195,66.9236,Europe,4
+Kenya,Sub-Saharan Africa,125,4.419,-0.0235,37.9061,Africa,1
+Kosovo,Central and Eastern Europe,69,5.589,42.6026,20.9029,Europe,4
+Kuwait,Middle East and Northern Africa,39,6.295,29.3116,47.4817,Africa,1
+Kyrgyzstan,Central and Eastern Europe,77,5.286,41.2043,74.766,Europe,4
+Laos,Southeastern Asia,99,4.876,36.1075,120.4688,Asia,3
+Latvia,Central and Eastern Europe,89,5.098,56.8796,24.6031,Europe,4
+Lebanon,Middle East and Northern Africa,103,4.839,33.8547,35.8622,Africa,1
+Lesotho,Sub-Saharan Africa,97,4.898,-29.6099,28.2336,Africa,1
+Liberia,Sub-Saharan Africa,116,4.571,6.428,-9.4294,Africa,1
+Libya,Middle East and Northern Africa,63,5.754,26.3351,17.2283,Africa,1
+Lithuania,Central and Eastern Europe,56,5.833,55.1694,23.8812,Europe,4
+Luxembourg,Western Europe,17,6.946,49.8152,6.1295,Europe,4
+Macedonia,Central and Eastern Europe,93,5.007,41.6086,21.7452,Europe,4
+Madagascar,Sub-Saharan Africa,147,3.681,-18.7669,46.8691,Africa,1
+Malawi,Sub-Saharan Africa,131,4.292,-13.2543,34.3015,Africa,1
+Malaysia,Southeastern Asia,61,5.77,4.2104,101.9757,Asia,3
+Mali,Sub-Saharan Africa,138,3.995,17.5706,-3.9961,Africa,1
+Malta,Western Europe,37,6.302,35.9374,14.3754,Europe,4
+Mauritania,Sub-Saharan Africa,124,4.436,21.0078,-10.9408,Africa,1
+Mauritius,Sub-Saharan Africa,71,5.477,-20.3484,57.5521,Africa,1
+Mexico,Latin America and Americas,14,7.187,23.6345,-102.5527,Americas,2
+Moldova,Central and Eastern Europe,52,5.889,47.4116,28.3698,Europe,4
+Mongolia,Eastern Asia,100,4.874,46.8624,103.8466,Asia,3
+Montenegro,Central and Eastern Europe,82,5.192,42.7086,19.3743,Europe,4
+Morocco,Middle East and Northern Africa,92,5.013,31.7917,-7.0926,Africa,1
+Mozambique,Sub-Saharan Africa,94,4.971,-18.6656,35.5295,Africa,1
+Myanmar,Southeastern Asia,129,4.307,21.9162,95.9559,Asia,3
+Nepal,Southern Asia,121,4.514,28.3948,84.124,Asia,3
+Netherlands,Western Europe,7,7.378,52.1326,5.2912,Europe,4
+New Zealand,Australia and New Zealand,9,7.286,-41.7523,173.438,Asia,3
+Nicaragua,Latin America and Americas,57,5.828,12.8654,-85.2072,Americas,2
+Niger,Sub-Saharan Africa,144,3.845,17.6077,8.0816,Africa,1
+Nigeria,Sub-Saharan Africa,78,5.268,9.0819,8.6752,Africa,1
+North Cyprus,Western Europe,66,5.695,35.248,33.6577,Europe,4
+Norway,Western Europe,4,7.522,59.9138,10.7522,Europe,4
+Oman,Middle East and Northern Africa,22,6.853,21.4735,55.9754,Africa,1
+Pakistan,Southern Asia,81,5.194,30.3753,69.3451,Asia,3
+Palestinian Territories,Middle East and Northern Africa,108,4.715,31.9521,35.2331,Africa,1
+Panama,Latin America and Americas,25,6.786,8.5379,-80.7821,Americas,2
+Paraguay,Latin America and Americas,53,5.878,-23.4425,-58.4438,Americas,2
+Peru,Latin America and Americas,58,5.824,-9.1899,-75.0151,Americas,2
+Philippines,Southeastern Asia,90,5.073,14.5995,120.984,Asia,3
+Poland,Central and Eastern Europe,60,5.791,51.9194,19.1451,Europe,4
+Portugal,Western Europe,88,5.102,39.3998,-8.2244,Europe,4
+Qatar,Middle East and Northern Africa,28,6.611,25.3648,51.1838,Africa,1
+Romania,Central and Eastern Europe,86,5.124,45.9431,24.9667,Europe,4
+Russia,Central and Eastern Europe,64,5.716,61.524,105.3187,Europe,4
+Rwanda,Sub-Saharan Africa,154,3.465,-1.9402,29.8738,Africa,1
+Saudi Arabia,Middle East and Northern Africa,35,6.411,23.8859,45.0791,Africa,1
+Senegal,Sub-Saharan Africa,142,3.904,14.4974,-14.4523,Africa,1
+Serbia,Central and Eastern Europe,87,5.123,44.0165,21.0058,Europe,4
+Sierra Leone,Sub-Saharan Africa,123,4.507,8.4605,-11.7798,Africa,1
+Singapore,Southeastern Asia,24,6.798,1.352,103.8198,Asia,3
+Slovakia,Central and Eastern Europe,45,5.995,48.669,19.699,Europe,4
+Slovenia,Central and Eastern Europe,55,5.848,46.1512,14.9954,Europe,4
+Somaliland region,Sub-Saharan Africa,91,5.057,5.7863,47.3258,Africa,1
+South Africa,Sub-Saharan Africa,113,4.642,-30.5594,22.9375,Africa,1
+South Korea,Eastern Asia,47,5.984,35.9077,127.7669,Asia,3
+Spain,Western Europe,36,6.329,40.4636,-3.7492,Europe,4
+Sri Lanka,Southern Asia,132,4.271,7.873,80.7717,Asia,3
+Sudan,Sub-Saharan Africa,118,4.55,12.8628,30.2176,Africa,1
+Suriname,Latin America and Americas,40,6.269,3.1993,-56.0277,Americas,2
+Swaziland,Sub-Saharan Africa,101,4.867,-26.5225,31.4658,Africa,1
+Sweden,Western Europe,8,7.364,60.1281,18.6435,Europe,4
+Switzerland,Western Europe,1,7.587,46.8181,8.2275,Europe,4
+Syria,Middle East and Northern Africa,156,3.006,34.802,38.9968,Africa,1
+Taiwan,Eastern Asia,38,6.298,23.6978,120.9605,Asia,3
+Tajikistan,Central and Eastern Europe,106,4.786,38.861,71.276,Europe,4
+Tanzania,Sub-Saharan Africa,146,3.781,-6.369,34.8888,Africa,1
+Thailand,Southeastern Asia,34,6.455,15.87,100.9925,Asia,3
+Togo,Sub-Saharan Africa,158,2.839,8.6195,0.8247,Africa,1
+Trinidad and Tobago,Latin America and Americas,41,6.168,10.6918,-61.2225,Americas,2
+Tunisia,Middle East and Northern Africa,107,4.739,33.8869,9.5374,Africa,1
+Turkey,Middle East and Northern Africa,76,5.332,38.9637,35.2433,Africa,1
+Turkmenistan,Central and Eastern Europe,70,5.548,38.9697,59.5562,Europe,4
+Uganda,Sub-Saharan Africa,141,3.931,1.3733,32.2902,Africa,1
+Ukraine,Central and Eastern Europe,111,4.681,48.3794,31.1655,Europe,4
+United Arab Emirates,Middle East and Northern Africa,20,6.901,23.424,53.8478,Africa,1
+United Kingdom,Western Europe,21,6.867,55.378,-9.4359,Europe,4
+United States,North America,15,7.119,37.0902,-95.7128,Americas,2
+Uruguay,Latin America and Americas,32,6.485,-32.5227,-55.7658,Americas,2
+Uzbekistan,Central and Eastern Europe,44,6.003,41.3774,64.5852,Europe,4
+Venezuela,Latin America and Americas,23,6.81,6.4237,-66.5897,Americas,2
+Vietnam,Southeastern Asia,75,5.36,14.0583,108.2771,Asia,3
+Yemen,Middle East and Northern Africa,136,4.077,15.5527,48.5163,Africa,1
+Zambia,Sub-Saharan Africa,85,5.129,-13.1338,27.8493,Africa,1
+Zimbabwe,Sub-Saharan Africa,115,4.61,-19.0154,29.1548,Africa,1

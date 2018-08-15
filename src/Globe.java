@@ -31,7 +31,8 @@ public class Globe {
 	
 	// Draw Globe
 	public void draw(PApplet p) {	
-		this.parent = p;				    		   
+		this.parent = p;	
+		parent.directionalLight(0, 0, 0, 0, 0, 100);
 	    parent.lights();
 	    parent.fill(250);
 	    parent.noStroke();
@@ -75,7 +76,7 @@ public class Globe {
      	    	else if (score > 6 && score <7)  
      	    		parent.fill(7, 170,90);   // green
      	    	else if (score < 6 && score > 5)
-     	    		parent.fill(148,92,149);  //marron
+     	    		parent.fill(148,92,149);  //maroon
      	    	else if (score < 5 && score >4)
      	    		parent.fill(142,84,7);  //brown
      	    	else
