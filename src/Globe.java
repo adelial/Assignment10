@@ -26,14 +26,12 @@ public class Globe {
 		imgEarth = parent.loadImage(pathFile);
 		parent.noStroke();
 	    globeEarth = parent.createShape(parent.SPHERE, this.diameter);
-	    globeEarth.setTexture(imgEarth);
+	    globeEarth.setTexture(imgEarth);  // file from https://visibleearth.nasa.gov/view_cat.php?categoryID=1484
 	}
 	
 	// Draw Globe
 	public void draw(PApplet p) {	
 		this.parent = p;	
-		//parent.directionalLight(0, 0, 0, 0, 0, 100);
-	    //parent.lights();
 	    parent.fill(250);
 	    parent.noStroke();
 	    parent.shape(globeEarth);		    		    	
@@ -46,13 +44,13 @@ public class Globe {
 
     	for (TableRow row : dataTable.rows()) { 
      	    lat = row.getFloat("Latitude");
-     	    lon = row.getFloat("Longitud");
+     	    lon = row.getFloat("Longitud"); 
      	    score = row.getFloat("Score");
      	    
      	    float theta = parent.radians(lat) + parent.PI/2;
      	    float phi = parent.radians(-lon) + parent.PI;
      	    float x = this.diameter*parent.sin(theta)*parent.cos(phi);
-     	    float z = this.diameter*parent.sin(theta)*parent.sin(phi);
+     	    float z = this.diameter*parent.sin(theta)*parent.sin(phi); 
      	    float y = this.diameter*parent.cos(theta);
      	    int bcolor;
      	    
@@ -72,7 +70,7 @@ public class Globe {
      	    	parent.rotate(angleb,raxis.x, raxis.y, raxis.z);
                 // depends of the score value a color for the box is determined    	      
      	    	if (score > 7.0)
-     	    		parent.fill(164,229,180);  // ligth green
+     	    		parent.fill(164,229,180);  // light green
      	    	else if (score > 6 && score <7)  
      	    		parent.fill(7, 170,90);   // green
      	    	else if (score < 6 && score > 5)

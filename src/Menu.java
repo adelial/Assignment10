@@ -43,7 +43,7 @@ class Menu {
       controls[i] = new Button(this.ctrlabels[i],ctrpos, this.ctrh, this.ctrw, this.ctrcolors, this.parent);
       controls[i].display();
       if (horizontal) {
-        posx = posx+ctrw;
+        posx = posx+ctrw+2;
       }    
       else {
         posy = posy+ctrh+2;
@@ -61,7 +61,7 @@ class Menu {
         controls[i].backcol = btncolors[3];
         controls[i].selected = true;
         controls[i].display();
-        keeper = i+1;
+        keeper = i+1;  
       }
       else {
         controls[i].backcol = btncolors[0];

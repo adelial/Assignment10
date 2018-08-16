@@ -38,8 +38,8 @@ public class HappyText {
 				parent.println(row.getString("Country") + " - " + row.getFloat("Score"));
 			}
 		}
-		else if (dRegion == "Africa") {
-			for (TableRow row : data.findRows("Africa", "DispRegion")) {
+		else if (dRegion == "Africa") { 
+			for (TableRow row : data.findRows("Africa", "DispRegion")) { 
 				parent.println(row.getString("Country") + " - " + row.getFloat("Score"));
 			}
 		}

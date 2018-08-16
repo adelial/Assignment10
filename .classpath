@@ -12,6 +12,7 @@
 	<classpathentry kind="lib" path="jogl-all-natives-windows-amd64.jar"/>
 	<classpathentry kind="lib" path="gluegen-rt.jar"/>
 	<classpathentry kind="lib" path="controlP5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Sturrock/Documents/SMU Data Science/Vizualization/Assignment10/gicentreUtils.jar"/>
+	<classpathentry kind="lib" path="gicentreUtils.jar"/>
+	<classpathentry kind="lib" path="gicentreUtils3_3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

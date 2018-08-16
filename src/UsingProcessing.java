@@ -5,7 +5,8 @@
 //******************************************** //
 
 // Credit To:
-// The coding train https://www.youtube.com/watch?v=dbs4IYGfAXc
+// The coding train - 3D Earthquake Data Visualization  https://www.youtube.com/watch?v=dbs4IYGfAXc  
+// Earth image used for texture from https://visibleearth.nasa.gov/view_cat.php?categoryID=1484 
 // Data set for happiness score is available in kaggle.com https://www.kaggle.com/unsdsn/world-happiness
 /* The happiness scores and rankings use data from the Gallup World Poll. The scores are based on answers 
  * to the main life evaluation question asked in the poll. This question, known as the Cantril ladder, 
@@ -15,7 +16,7 @@
  */
 
 import processing.core.*;
-import processing.data.*; 
+import processing.data.*;  
 
 
 public class UsingProcessing extends PApplet {
@@ -24,7 +25,6 @@ public class UsingProcessing extends PApplet {
 	Globe world;
 	Menu yearMenu,optionMenu;
 	Legend boxLabels;
-	HappyText happyText;
 	Graphs barGraph;
 
 	float angle;
@@ -39,8 +39,8 @@ public class UsingProcessing extends PApplet {
     int graphcolors[] = {color(164,229,180),color(7, 170,90),color(148,92,149),color(142,84,7),color(165,7,20)};
      
 	//Static Variable Used to Toggle between A and G folder paths
-	//public static String localPath = "C:\\Users\\Alma\\eclipse-workspace\\Assignment10\\data\\";
-	public static String localPath = "C:\\Users\\Sturrock\\Documents\\SMU Data Science\\Vizualization\\Assignment10\\Data\\";
+	public static String localPath = "C:\\Users\\Alma\\eclipse-workspace\\Assignment10\\data\\";
+	//public static String localPath = "C:\\Users\\Sturrock\\Documents\\SMU Data Science\\Vizualization\\Assignment10\\Data\\";
 	
 	
 	public static void main(String[] args) { 
@@ -60,18 +60,16 @@ public class UsingProcessing extends PApplet {
     	  
     	// Creation of objects 
     	world = new Globe(diameter,localPath+"earth.jpg", this);  // earth globe
-    	yearMenu = new Menu(labels, 30, 100, btncolors, this);  // Menu buttons for year selection
+    	yearMenu = new Menu(labels, 30, 170, btncolors, this);  // Menu buttons for year selection
     	optionMenu = new Menu(labels2, 25, 120, btncolors, this);  // Menu buttons for year selection
     	fill(0);  // Font color
     	boxLabels = new Legend(150, 175, graphcolors, captions,	color(255), color(255), false, this);
-    	happyText = new HappyText(this);
     	barGraph = new Graphs(this);
     	
     	// load data   	
     	data2017=loadTable(localPath+"2017_happy2.csv","header");
     	data2016=loadTable(localPath+"2016_happy2.csv","header");
-    	data2015=loadTable(localPath+"2015_happy2.csv","header");
-     	  	    	    
+    	data2015=loadTable(localPath+"2015_happy2.csv","header"); 
     } //setup
 
     public void draw(){
@@ -79,25 +77,24 @@ public class UsingProcessing extends PApplet {
     	int selYear=0;
     	int selArea=0;
     	background(20);
-    	String title="";
+    	String title="Measurement of Happiness in the World";
     	
     	textSize(35);
     	fill(255);
-    	title = "Measurement of Happiness in the World";
     	textAlign(CENTER);
     	text(title, width/2, 35f, 10f);
     	textSize(15);
-    	yearMenu.build(1000, 180, true);
-    	optionMenu.build(1000, 250, false);
-    	boxLabels.draw(1200,250, "Happiness Score");  // Legend box 
+    	yearMenu.build(900, 100, true);  // Horizontal menu
+    	optionMenu.build(900, 150, false);  // Vertical Menu
+    	boxLabels.draw(70,800, "Happiness Score");  // Legend box 
     	
-    	if (mouseX > 800 && mouseX <1500 && mouseY > 180 && mouseY<240 && mousePressed && mouseButton == LEFT){
+    	if (mouseX > 900 && mouseX <1420 && mouseY > 100 && mouseY <140 && mousePressed && mouseButton == LEFT){
     	    selYear = yearMenu.selectedButton(this, btncolors); 
     	  }
     	else {
     	    selYear= yearMenu.keepButton(this,btncolors);
     	} 
-    	if (mouseX > 1000 && mouseX <1150 && mouseY > 241 && mouseY<500 && mousePressed && mouseButton == LEFT){
+    	if (mouseX > 900 && mouseX <1150 && mouseY > 151 && mouseY<400 && mousePressed && mouseButton == LEFT){
     	    selArea = optionMenu.selectedButton(this, btncolors); 
     	  }
     	else {
@@ -107,7 +104,6 @@ public class UsingProcessing extends PApplet {
     	lightSpecular(0, 0, 0);
 		directionalLight(0, 0, 0, 0, 750, -10);
 	    lights();
-    	//directionalLight(255, 255, 255, 0, 0, 100);
     	fill(250);
     	noStroke();
     	pushMatrix();
@@ -128,14 +124,14 @@ public class UsingProcessing extends PApplet {
             		break;
             	case (3):  // Europe
             		dispR = "Europe";
-            		rotateY(14f);
-            		rotateX(-0.3f);
+            		rotateY(13.9f);
+            		rotateX(-0.4f);
             		rotateZ(-0.4f);
             		world.draw(this);  // draw the globe
             		break;
             	case (4):  // Asia
             		dispR = "Asia";
-            		rotateY(19.5f);
+            		rotateY(19.2f);
             		rotateX(-0.45f);
             		rotateZ(-0.2f);
             		world.draw(this);  // draw the globe
@@ -147,38 +143,31 @@ public class UsingProcessing extends PApplet {
                 	break;
             	default:            		
     		}  
-    		
+    	    //  Add data visualization for the scores in the globe based on selected year
     		if (selYear==1) {
-    			world.VizData(this, data2017);  // Use to add the visualization for the scores
-    			//happyText.write(this, dispR, data2017);
+    			world.VizData(this, data2017);  
     		}
     		else if (selYear==2) {
-    			world.VizData(this, data2016);  // Use to add the visualization for the scores
-    			//happyText.write(this, dispR, data2016);
+    			world.VizData(this, data2016);  
     		}
     		else if (selYear==3) {
-        		world.VizData(this, data2015);  // Use to add the visualization for the scores
-        		//happyText.write(this, dispR, data2015);
-            }    
+        		world.VizData(this, data2015);  
+            }    		
     	popMatrix();
-    	
-    	//
+    	// Display bar graph for top/bottom 5 countries based on year/area selected
     	pushMatrix();
 			if (selYear==1) {
-				//happyText.write(this, dispR, data2017);
 				barGraph.drawTop(this, dispR, data2017, 0);
 				barGraph.drawTop(this, dispR, data2017, 1);
 			}
 			else if (selYear==2) {
-				//happyText.write(this, dispR, data2016);
 				barGraph.drawTop(this, dispR, data2016, 0);
-				barGraph.drawTop(this, dispR, data2016, 1);
+				barGraph.drawTop(this, dispR, data2016, 1); 
 			}
 			else if (selYear==3) {
-	    		//happyText.write(this, dispR, data2015);
 				barGraph.drawTop(this, dispR, data2015, 0);
 				barGraph.drawTop(this, dispR, data2015, 1);			
 	        }        	
     	popMatrix();
-    } // draw
+    } // draw    
 } // class

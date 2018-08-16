@@ -7,11 +7,11 @@ public class Legend {
 	int graphcolors[]= {0,0};
 	String captions[] = {"One","Two"};
 	int backcolor;
-	int strokeColor;
+	int strokeColor; 
 	boolean drawStroke;
 	PApplet parent;
 	
-	Legend(){
+	Legend(){ 
 	}
 	Legend(PApplet p){
 		this.parent = p;

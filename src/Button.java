@@ -5,7 +5,7 @@ class Button{
   PVector pos;
   int backcol, labelcolor, mousecolor, selcolor;
   int[] controlColors;
-  float bh, bw;
+  float bh, bw; 
   String label;
   Boolean selected=false;
   PApplet parent;
@@ -13,7 +13,7 @@ class Button{
   Button() {
   }
   
-  Button(String label, PVector pos, float bh, float bw, int[] controlColors, PApplet p) {
+  Button(String label, PVector pos, float bh, float bw, int[] controlColors, PApplet p)  {
     this.pos = pos;
     this.label = label;
     this.bh = bh;

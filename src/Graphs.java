@@ -1,3 +1,4 @@
+// This class is used to display the graph bar data for 5 top and 5 bottom happiest countries
 import org.gicentre.utils.stat.BarChart;
 import processing.core.*;
 import processing.data.*;
@@ -30,7 +31,6 @@ public class Graphs {
 
 		if (dRegion == "Americas") {
 			for (int r=0; count < 5; r++) {
-				//String d = data.getString(r, "DispRegion");
 				int d2 = data.getInt(r, "DispRegion2");
 				if (d2 == 2) {
 					String c = data.getString(r, "Country");
@@ -91,19 +91,19 @@ public class Graphs {
 		barChart.setData(bgScore);
 		barChart.setBarLabels(bgCountry);
 		barChart.setBarGap(10); 
-		barChart.showValueAxis(true); 
+		barChart.showValueAxis(true);  
 		barChart.showCategoryAxis(true); 
 		barChart.setAxisLabelColour(0);
 		barChart.transposeAxes(true);
 		if (direction == 0) {
-			parent.text("Top 5 Happiest", this.parent.width/1.35f, this.parent.height/2.2f);
+			parent.text("Top 5 Happiest", this.parent.width/1.35f, this.parent.height/2.8f); 
 			barChart.setBarColour(this.parent.color(7, 170,90));
-			barChart.draw(this.parent.width/1.7f, this.parent.height/2.15f, this.parent.width/2.7f, this.parent.height/4.1f);
+			barChart.draw(this.parent.width/1.7f, this.parent.height/2.7f, this.parent.width/2.7f, this.parent.height/4.1f);
 		}
 		else {
-			parent.text("Bottom 5 Happiest", this.parent.width/1.35f, this.parent.height/1.37f);
+			parent.text("Bottom 5 Happiest", this.parent.width/1.35f, this.parent.height/1.5f);
 			barChart.setBarColour(this.parent.color(142,84,7));
-			barChart.draw(this.parent.width/1.7f, this.parent.height/1.36f, this.parent.width/2.7f, this.parent.height/4.1f);			
+			barChart.draw(this.parent.width/1.7f, this.parent.height/1.45f, this.parent.width/2.7f, this.parent.height/4.1f);			
 		}		
 	} //end drawTop	
 }//end Graphs Class
