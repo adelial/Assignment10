@@ -7,6 +7,7 @@
 // Credit To:
 // The coding train - 3D Earthquake Data Visualization  https://www.youtube.com/watch?v=dbs4IYGfAXc  
 // Earth image used for texture from https://visibleearth.nasa.gov/view_cat.php?categoryID=1484 
+// https://en.wikipedia.org/wiki/Spherical_coordinate_system 
 // Data set for happiness score is available in kaggle.com https://www.kaggle.com/unsdsn/world-happiness
 /* The happiness scores and rankings use data from the Gallup World Poll. The scores are based on answers 
  * to the main life evaluation question asked in the poll. This question, known as the Cantril ladder, 
@@ -29,7 +30,7 @@ public class UsingProcessing extends PApplet {
 
 	float angle;
     Table data2015, data2016, data2017;
-    int diameter=300, a;
+    int rad=300, a;
     int[] btncolors = new int[4];
     String labels[] = {"2017", "2016", "2015"};
     String labels2[] = {"World","Americas", "Europe", "Asia","Africa"};
@@ -59,7 +60,7 @@ public class UsingProcessing extends PApplet {
     	btncolors[3] = color(46,98,137);  // selected
     	  
     	// Creation of objects 
-    	world = new Globe(diameter,localPath+"earth.jpg", this);  // earth globe
+    	world = new Globe(rad,localPath+"earth.jpg", this);  // earth globe
     	yearMenu = new Menu(labels, 30, 170, btncolors, this);  // Menu buttons for year selection
     	optionMenu = new Menu(labels2, 25, 120, btncolors, this);  // Menu buttons for year selection
     	fill(0);  // Font color
@@ -112,7 +113,7 @@ public class UsingProcessing extends PApplet {
             	case (1):  // World
             		dispR = "World"; 
             		rotateY(angle);  // use for the rotation in Y 
-        			angle+= 0.005;
+        			angle+= 0.005; 
         			world.draw(this);  // draw the globe
             		break;
             	case (2):  // Americas
