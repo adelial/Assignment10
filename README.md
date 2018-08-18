@@ -12,6 +12,7 @@ Final Visualization project 3D
 // Earth image used for texture from https://visibleearth.nasa.gov/view_cat.php?categoryID=1484 
 // https://en.wikipedia.org/wiki/Spherical_coordinate_system 
 // Data set for happiness score is available in kaggle.com https://www.kaggle.com/unsdsn/world-happiness
+
 The happiness scores and rankings use data from the Gallup World Poll. The scores are based on answers 
 to the main life evaluation question asked in the poll. This question, known as the Cantril ladder, 
 asks respondents to think of a ladder with the best possible life for them being a 10 and the worst possible 
